@@ -7,7 +7,7 @@ variable "aws_region" {
 variable "aws_account_id" {
   description = "The AWS account identifier of the project"
   type = string
-  default = "453267903880"
+  default = "1234567891234"
 }
 
 variable "prefix" {
