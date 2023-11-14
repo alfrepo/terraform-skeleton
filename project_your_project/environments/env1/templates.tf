@@ -1,6 +1,6 @@
 data "template_file" "tf_iot_policy" {
   vars = {
-    aws_region = "${var.aws_region}"
+    aws_region = "${local.aws_region}"
     aws_account_id = "${var.aws_account_id}"
   }
   template = <<EOF
