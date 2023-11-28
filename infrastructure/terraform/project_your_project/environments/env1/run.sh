@@ -7,6 +7,6 @@ then
 fi
  
 terraform validate
-terraform plan
+terraform plan -out="PLAN.TERRAFORM"
  
-#terraform apply
+# terraform apply "PLAN.TERRAFORM"
